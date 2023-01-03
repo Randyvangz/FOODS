@@ -1,0 +1,52 @@
+.contenedor {
+    width: 350px;
+    background-image: url("../pics/hoja.png");
+    background-size: 480px;
+    height: 470px;
+    width: 450px;
+    /*border: 10px solid skyblue;*/
+    margin: 15px;
+    padding: 5px;
+}
+
+.contenedor:hover {
+    background-color: transparent;
+    padding: 10px;
+}
+
+.diettype {
+    background-color: transparent;
+    text-align: center;
+    position:relative;
+            left:120px;
+            top:10px;
+            width: 200px;
+            word-wrap: break-word;
+            font-family: 'Tangerine', cursive;
+    font-size: 80%;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+
+.title {
+    background-color: transparent;
+    text-align: center;
+    position:relative;
+            left:150px;
+            top:40px;
+            width: 200px;
+            word-wrap: break-word;
+            font-family: 'Tangerine', cursive;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.pic {
+    position:relative;
+    left:30px;
+    bottom:15px;
+    align-content: 50%  ;
+    border-radius: 20%;
+}

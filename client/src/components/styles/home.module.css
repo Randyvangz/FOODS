@@ -1,0 +1,111 @@
+.button {
+  background-color: rgb(252, 216, 59);
+  width: 20%;
+  border-radius: 30px;
+  border-color: #71AF8E;
+  color: #71AF8E;
+  padding: 8px 8px;
+  /* display: inline-block; */
+  font-size: 20px;
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  animation: bounce 3s alternate-reverse ease-in-out infinite;
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(90%);
+  }
+  to {
+    transform: scale(75%);
+  }
+}
+
+.button2 {
+  background-color: rgb(252, 216, 59);
+  width: 20%;
+  border-radius: 30px;
+  border-color: #71AF8E;
+  color: #71AF8E;
+  padding: 8px 8px;
+  /* display: inline-block; */
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  animation: bounce 3s alternate-reverse ease-in-out infinite;
+}
+
+.select1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #71AF8E;
+  width: 25%;
+  padding: 10px 20px;
+  border: thin;
+  border-radius: 20px;
+  background-color: rgb(252, 216, 59);
+  cursor: pointer;
+}
+
+.select2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #71AF8E;
+  width: 25%;
+  padding: 10px 20px;
+  border: thin;
+  border-radius: 20px;
+  background-color: rgb(252, 216, 59);
+  cursor: pointer;
+}
+
+.select3 {
+  font-family: 'Tangerine', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #71AF8E;
+  width: 25%;
+  padding: 10px 20px;
+  border: thin;
+  border-radius: 20px;
+  background-color: rgb(252, 216, 59);
+  cursor: pointer;
+}
+
+.select4 {
+  font-family: 'Tangerine', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #71AF8E;
+  width: 25%;
+  padding: 10px 20px;
+  border: thin;
+  border-radius: 20px;
+  background-color: rgb(252, 216, 59);
+  cursor: pointer;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+.imagen {
+  background-image: url('../pics/OIUF6C0.jpg');
+  background-size: contain;
+  
+}

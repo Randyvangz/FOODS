@@ -1,0 +1,85 @@
+.summary {
+    width: 900px;
+    background-color: rgb(236, 247, 94);
+    border-radius: 30px;
+    border: 3.5px double rgb(88, 27, 255);
+    font-family: monospace;
+    font-size: medium;
+    color: rgb(88, 27, 255);
+    margin: 8px;
+    padding: 5px;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    
+}
+
+@keyframes rollOut {
+    from {
+        transform: scale(100%);
+    }
+    to {
+        transform: scale(75%);
+    }
+}
+
+.btn {
+    text-shadow: 0 0 5px rgb(240, 218, 20), 0 0 10px rgb(240, 218, 20), 0 0 30px rgb(240, 218, 20), 0 0 5px rgb(240, 218, 20);
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(88, 27, 255);
+    border: 1.5px dotted rgb(88, 27, 255);
+    border-radius: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 200px;
+    left: 35px;
+    animation: shake 2s alternate-reverse ease-in-out infinite;
+    width: 20%;
+    height: 10%;
+}
+
+@keyframes shake {
+    from {
+        transform: scale(90%);
+    }
+    to {
+        transform: scale(75%);
+    }
+}
+
+body {
+    background-color:mintcream;
+}
+
+.resume {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.dt {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.sbs {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.s {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.hs {
+    font-size: 15px;
+    font-family: monospace;
+}
+.piK{
+    width: 35%;
+    height: 35%;
+    border-radius: 40px;
+}
+

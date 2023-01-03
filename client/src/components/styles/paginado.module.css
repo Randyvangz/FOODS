@@ -1,0 +1,22 @@
+ul{
+  list-style-type:none;
+  text-align: center ;
+  display: inline-flex;
+}
+
+li{
+  color: rgb(113, 175, 142);
+  background-color:aliceblue;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  width: 5em;
+  border: 1.5px solid rgb(113, 175, 142);
+  cursor: pointer;
+}
+li:hover{
+  background-color: orange;
+}
+
+
+  
